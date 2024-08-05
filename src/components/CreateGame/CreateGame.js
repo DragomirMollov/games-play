@@ -12,6 +12,7 @@ export const CreateGame = () => {
     }, onCreateGameSubmit);
 
     return (
+        <>
         <section id="create-page" className="auth">
             <form id="create" method="post" onSubmit={onSubmit}>
                 <div className="container">
@@ -64,5 +65,6 @@ export const CreateGame = () => {
                 </div>
             </form>
         </section>
+        </>
     );
 };
